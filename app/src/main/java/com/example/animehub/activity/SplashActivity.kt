@@ -22,7 +22,7 @@ class SplashActivity : AppCompatActivity() {
 
         // Start the animation for the splash icon
         val fadeAnimation = ObjectAnimator.ofFloat(imgSplashIcon, "alpha", 0f, 1f)
-        fadeAnimation.duration = 2000 // 1 second
+        fadeAnimation.duration = 2000 // 2 second
         fadeAnimation.start()
 
         Handler().postDelayed({
